@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+ .header {
+	 background-color: rgb(255, 255, 255);
+	 height: 5rem;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 0px 20px;
+	 box-shadow: 0px 5px 5px 5px #ddd;
+}
+ .header_logo {
+	 color: black;
+	 text-decoration: none;
+	 font-size: 25px;
+	 font-weight: bold;
+}
+
+.color{
+	color:#00a651;
+}
+ .header_logoimg img {
+	 height: 3.5rem;
+}
+ .header_search {
+	 height: 2rem;
+	 background-color: white;
+	 width: 35vw;
+	 height: 2.5rem;
+	 display: flex;
+	 align-items: center;
+	 border: 1px solid black;
+	
+}
+ .header_search input {
+	 flex-grow: 1;
+	 font-size: 1.3rem;
+	 border: none;
+	 outline: none;
+	 padding: 10px;
+	 border-radius: 25px;
+}
+ .header_search input[type="text"] {
+	 font-size: 1rem;
+}
+ .header_search-icon {
+	 height: 100%;
+	 box-sizing: box;
+	 padding-right: 15px;
+	 display: flex;
+	 align-items: center;
+	 color: #00a651;
+}
+ .header_navigation {
+	 list-style: none;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 
+}
+ .header_navigation_item {
+	 margin-right: 1.2rem;
+}
+
+.item1{
+	padding-top: 10px;
+}
+.item2{
+	padding-top: 6px;
+}
+ .header_navigation_item-link {
+	 font-size: 1.3rem;
+	 text-decoration: none;
+	 color: rgb(0, 0, 0);
+}
+
+.header_navigation_item-link:hover{
+	color:#00a651
+}
+
+.username{
+	font-size: 1.3rem;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	cursor:default;
+}
+
+ @media only screen and (max-width: 680px) {
+	 .header {
+		 font-size: 20%;
+	}
+	 .header_search {
+		 display: none;
+	}
+	 .header_logo {
+		 font-size: 22px;
+	}
+	 .header_navigation_item-link, .username{
+		 font-size: 1.2rem;
+	}
+}
+ @media only screen and (max-width: 400px) {
+	 .header {
+		 padding: 1rem;
+	}
+	 .header_navigation_item {
+		 margin-right: 1rem;
+	}
+	.header_logo {
+		font-size: 20px;
+   } 
+   .btn{
+	padding: 8px 12px;
+   }
+}
+ 

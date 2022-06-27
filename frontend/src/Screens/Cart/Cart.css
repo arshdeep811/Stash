@@ -1,0 +1,122 @@
+.cart {
+  min-height: 80vh;
+  margin: auto;
+  display: flex;
+  padding: 2rem;
+  margin: 20px 0px;
+}
+.cart_items {
+  width: 50%;
+  box-shadow: 0 5px 5px 5px #ddd;
+  margin-right: 1rem;
+  padding: 1rem;
+}
+.cart_item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.cart_item img {
+  height: 5rem;
+}
+.cart_item-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 1rem;
+  justify-content: space-between;
+}
+.cart_total {
+  width: 50%;
+  box-shadow: 0 5px 5px 5px #ddd;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.cart_total-title {
+  margin-bottom: 1rem;
+}
+.cart_total-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.cart_total-item-name {
+  width: 60%;
+  flex-grow: 1;
+}
+.cart_total-item-price {
+  width: 25%;
+  margin-left: 1rem;
+  width: 5rem;
+  text-align: end;
+}
+.checkout-btn {
+  margin: 1rem;
+}
+.noproduct {
+  padding: 3rem 2rem;
+  background-color: #ddd;
+  min-height: 100vh;
+}
+@media only screen and (max-width: 880px) {
+  .cart {
+    flex-direction: column;
+    align-items: center;
+ }
+  .cart_items {
+    width: 80%;
+    margin-bottom: 2rem;
+    box-shadow: none;
+ }
+  .cart_total {
+    box-shadow: none;
+    width: 80%;
+    border: 1px solid #000;
+ }
+}
+@media only screen and (max-width: 880px) {
+  .cart_items {
+    width: 90%;
+ }
+  .cart_total {
+    width: 90%;
+ }
+}
+@media only screen and (max-width: 650px) {
+  .cart_items {
+    width: 100%;
+ }
+  .cart_total {
+    width: 100%;
+ }
+}
+@media only screen and (max-width: 500px) {
+  .cart {
+    padding: 1rem;
+    font-size: 80%;
+ }
+}
+@media only screen and (max-width: 400px) {
+  .cart {
+    padding: 10px;
+    font-size: 80%;
+ }
+}
+@media only screen and (max-width: 320px) {
+  .cart_item {
+    flex-direction: column;
+    text-align: center;
+ }
+  .cart_item img {
+    margin-bottom: 1rem;
+ }
+  .cart_item-details {
+    margin-bottom: 1rem;
+ }
+  .cart_item-details h3 {
+    margin-bottom: 10px;
+ }
+}

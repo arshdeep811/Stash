@@ -1,0 +1,20 @@
+.btn {
+  background-color: #00a651;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  text-align: center;
+}
+
+.btn:hover{
+  background-color: #028642;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 1rem;
+  background-color: rgb(234, 234, 234);
+  color: red;
+}
