@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cd43def.chunk.css",
+    "main.js": "/static/js/main.57e7de5e.chunk.js",
+    "main.js.map": "/static/js/main.57e7de5e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4eab1d6a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4eab1d6a.js.map",
+    "static/js/2.303a7952.chunk.js": "/static/js/2.303a7952.chunk.js",
+    "static/js/2.303a7952.chunk.js.map": "/static/js/2.303a7952.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5cd43def.chunk.css.map": "/static/css/main.5cd43def.chunk.css.map",
+    "static/js/2.303a7952.chunk.js.LICENSE.txt": "/static/js/2.303a7952.chunk.js.LICENSE.txt",
+    "static/media/airpods.jpg": "/static/media/airpods.8d4984e9.jpg",
+    "static/media/alexa.jpg": "/static/media/alexa.5a441a61.jpg",
+    "static/media/background.jpg": "/static/media/background.9204afc0.jpg",
+    "static/media/camera.jpg": "/static/media/camera.31123404.jpg",
+    "static/media/echodot.jpg": "/static/media/echodot.99099d2a.jpg",
+    "static/media/favicon.ico": "/static/media/favicon.90213828.ico",
+    "static/media/headphones.jpg": "/static/media/headphones.30165033.jpg",
+    "static/media/laptop.jpg": "/static/media/laptop.fd1850bf.jpg",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.77ce1bbb.png",
+    "static/media/logo.png": "/static/media/logo.9df799fd.png",
+    "static/media/logo.jpg": "/static/media/logo.fe900ea8.jpg",
+    "static/media/logonobackground.jpg": "/static/media/logonobackground.820fbfad.jpg",
+    "static/media/mouse.jpg": "/static/media/mouse.b8fed0b3.jpg",
+    "static/media/pendrive.jpg": "/static/media/pendrive.c463331c.jpg",
+    "static/media/phone.jpg": "/static/media/phone.592f637e.jpg",
+    "static/media/playstation.jpg": "/static/media/playstation.c2be05be.jpg",
+    "static/media/printer.jpg": "/static/media/printer.2d33a2ef.jpg",
+    "static/media/sample.jpg": "/static/media/sample.e8730b9a.jpg",
+    "static/media/smartwatch.jpg": "/static/media/smartwatch.e35844e4.jpg",
+    "static/media/soundbar.jpg": "/static/media/soundbar.3a26dd06.jpg",
+    "static/media/tv.jpg": "/static/media/tv.264f885b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4eab1d6a.js",
+    "static/js/2.303a7952.chunk.js",
+    "static/css/main.5cd43def.chunk.css",
+    "static/js/main.57e7de5e.chunk.js"
+  ]
+}
